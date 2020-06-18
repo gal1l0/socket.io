@@ -1,0 +1,33 @@
+{
+  "name": "socket_io",
+  "version": "1.0.0",
+  "description": "A demo implementation of socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc app.js --allowJs --outDir ./dist",
+    "start": "node dist/app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gal1l0/socket.io.git"
+  },
+  "keywords": [
+    "socket.io",
+    "nodejs",
+    "streams",
+    "chat"
+  ],
+  "author": "Alain Christian (gal1l0)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gal1l0/socket.io/issues"
+  },
+  "homepage": "https://github.com/gal1l0/socket.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
